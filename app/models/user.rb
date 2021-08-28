@@ -2,6 +2,14 @@ class User < ApplicationRecord
   has_many :invites
   has_many :events, through: :invites
 
+  def as_json_for_event event_id
+    invite_for_event = invites.find_by(event_id: event_id)
+
+    as_json(except: [:created_at, :updated_at, :score]).merge({
+      "invite_response" => invite_for_event.response,
+      "attended_event" => invite_for_event.attended
+    })
+  end
 
   def update_user_score
     update(score: user_score)
