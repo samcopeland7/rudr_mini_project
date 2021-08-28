@@ -1,13 +1,25 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  first_name: MyString
-  last_name: MyString
-  email: MyString
-  score: 1
+sam:
+  first_name: Sam
+  last_name: Copeland
+  email: sam.copeland@gmail.com
+  score: 3
 
-two:
-  first_name: MyString
-  last_name: MyString
-  email: MyString
-  score: 1
+john:
+  first_name: John
+  last_name: Doe
+  email: john.doe@juno.com
+  score: -3
+
+absent:
+  first_name: Chronically
+  last_name: Absent
+  email: absent@hotmail.com
+  score: -6
+
+jeff:
+  first_name: Jeff
+  last_name: Bezos
+  email: jeff@amazon.com
+  score: 8

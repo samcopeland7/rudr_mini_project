@@ -1,0 +1,97 @@
+one:
+  user: sam
+  event: seeds
+  response: accepted
+  attended: true
+
+two:
+  user: sam
+  event: mixer
+  response: declined
+  attended: false
+
+three:
+  user: sam
+  event: fair
+  response: ignored
+  attended: true
+
+four:
+  user: sam
+  event: happy_hour
+  response: accepted
+  attended: true
+
+five:
+  user: john
+  event: seeds
+  response: accepted
+  attended: false
+
+six:
+  user: john
+  event: mixer
+  response: accepted
+  attended: true
+
+seven:
+  user: john
+  event: fair
+  response: ignored
+  attended: false
+
+eight:
+  user: john
+  event: happy_hour
+  response: declined
+  attended: true
+
+nine:
+  user: absent
+  event: seeds
+  response: declined
+  attended: false
+
+ten:
+  user: absent
+  event: mixer
+  response: accepted
+  attended: false
+
+eleven:
+  user: absent
+  event: fair
+  response: ignored
+  attended: false
+
+twelve:
+  user: absent
+  event: happy_hour
+  response: accepted
+  attended: false
+
+thirteen:
+  user: jeff
+  event: seeds
+  response: accepted
+  attended: true
+
+fourteen:
+  user: jeff
+  event: mixer
+  response: accepted
+  attended: true
+
+fifteen:
+  user: jeff
+  event: fair
+  response: accepted
+  attended: true
+
+sixteen:
+  user: jeff
+  event: happy_hour
+  response: accepted
+  attended: true
+
+
