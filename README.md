@@ -1,24 +1,11 @@
-# README
+# Rudr Mini Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A sample app with a few API endpoints using Rails.
 
-Things you may want to cover:
+List of Users (for an Event)
 
-* Ruby version
+/users (expects :event_id as a param)
 
-* System dependencies
+Individual User (including score)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+/users/:user_id
